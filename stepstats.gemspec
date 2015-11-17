@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.description = "Cucumber formatter that generates stats on all steps that are used during testing."
   s.authors     = ["Sundus Yousuf"]
   s.email       = 'sundus2y@gmail.com'
-  s.files       = ["lib/stepstats.rb"]
+  s.files       = ["lib/**/*"]
   s.homepage    = "https://github.com/sundus-y/StepStats"
   s.license     = 'MIT'
 end
