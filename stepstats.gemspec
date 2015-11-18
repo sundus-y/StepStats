@@ -9,4 +9,5 @@ Gem::Specification.new do |s|
   s.files       = Dir["lib/**/*"]
   s.homepage    = "https://github.com/sundus-y/StepStats"
   s.license     = 'MIT'
+  s.add_dependency 'cucumber'
 end
