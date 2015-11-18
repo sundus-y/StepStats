@@ -18,7 +18,7 @@ module StepStats
     end
 
     def get_step_number step_regx
-      @steps[step_regx] = @step_counter.next! if @steps[step_regx].nil?
+      @steps[step_regx] = @step_counter.next!.dup if @steps[step_regx].nil?
       @steps[step_regx]
     end
 
